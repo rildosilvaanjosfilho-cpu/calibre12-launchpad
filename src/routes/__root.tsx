@@ -77,14 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Clube calibre 12" },
+      { name: "description", content: "Clube de Tiro Calibre 12 | Cursos, Filiação e Assessoria CAC - Porte - Posse - Laudos
+Curta a prática do tiro esportivo em um ambiente seguro. Oferecemos cursos" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Clube calibre 12" },
+      { property: "og:description", content: "Clube de Tiro Calibre 12 | Cursos, Filiação e Assessoria CAC - Porte - Posse - Laudos
+Curta a prática do tiro esportivo em um ambiente seguro. Oferecemos cursos" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Clube calibre 12" },
+      { name: "twitter:description", content: "Clube de Tiro Calibre 12 | Cursos, Filiação e Assessoria CAC - Porte - Posse - Laudos
+Curta a prática do tiro esportivo em um ambiente seguro. Oferecemos cursos" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/RTvTnftve8VLT3QFxshKC1bu9fF3/social-images/social-1780382246925-WhatsApp_Image_2026-05-29_at_09.34.45.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/RTvTnftve8VLT3QFxshKC1bu9fF3/social-images/social-1780382246925-WhatsApp_Image_2026-05-29_at_09.34.45.webp" },
     ],
     links: [
       {
