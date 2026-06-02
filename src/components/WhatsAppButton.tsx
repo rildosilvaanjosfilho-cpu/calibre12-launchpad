@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const WHATSAPP_URL = "https://wa.me/5500000000000?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20Clube%20de%20Tiro%20Calibre%2012.";
+const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=5521964848187&text&type=phone_number&app_absent=0&utm_source=ig";
 
 export function WhatsAppButton() {
   return (

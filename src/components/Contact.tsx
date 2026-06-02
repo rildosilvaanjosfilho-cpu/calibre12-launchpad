@@ -26,7 +26,7 @@ export function Contact() {
 
           <div className="mt-12 flex flex-wrap justify-center gap-4">
             <a
-              href="https://wa.me/5500000000000?text=Olá!%20Quero%20agendar%20uma%20visita%20ao%20Clube%20de%20Tiro%20Calibre%2012."
+              href="https://api.whatsapp.com/send/?phone=5521964848187&text&type=phone_number&app_absent=0&utm_source=ig"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-5 text-sm uppercase tracking-widest font-semibold rounded-sm hover:bg-primary/90 transition-all"
