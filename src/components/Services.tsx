@@ -78,9 +78,14 @@ export function Services() {
               <div className="p-7">
                 <h3 className="font-display text-2xl font-bold mb-3">{s.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
-                <div className="mt-6 inline-flex items-center gap-2 text-xs uppercase tracking-widest text-primary opacity-0 -translate-x-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                <a
+                  href="https://api.whatsapp.com/send/?phone=5521964848187&text&type=phone_number&app_absent=0&utm_source=ig"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-flex items-center gap-2 text-xs uppercase tracking-widest text-primary opacity-0 -translate-x-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0"
+                >
                   Saiba mais <span>→</span>
-                </div>
+                </a>
               </div>
             </motion.article>
           ))}
