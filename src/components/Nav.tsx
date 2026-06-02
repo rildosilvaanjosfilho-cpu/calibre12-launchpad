@@ -28,7 +28,9 @@ export function Nav() {
           ))}
         </nav>
         <a
-          href="#contato"
+          href="https://api.whatsapp.com/send/?phone=5521964848187&text&type=phone_number&app_absent=0&utm_source=ig"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-flex items-center text-xs uppercase tracking-widest font-medium bg-primary text-primary-foreground px-4 py-2 rounded-sm hover:bg-primary/90 transition-colors"
         >
           Filie-se
